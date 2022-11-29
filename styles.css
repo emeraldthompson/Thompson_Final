@@ -1,0 +1,90 @@
+/* ---------- GLOBAL STYLES ---------- */
+    body{
+        background-color: #ffffff;
+        font-family: 'Times New Roman', Arial, sans-serif;
+        width: 1280px;
+        text-align: center;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    header{
+        color: black;
+        text-align: center;
+    }
+    main{
+        list-style-type: none;  
+    }
+    .clearfix{
+        overflow: auto;
+    }
+    img{
+        width: 600px;
+        height: auto;
+    }
+    nav{
+        color:black;
+        margin: 0;
+        padding: 0;
+    }
+    nav li{
+        display: inline;
+        margin: 50px;
+        color: #000000;
+    }
+    nav ul{
+        padding: 0;
+    }
+/* Form Styles */
+    form{
+        width: 350px
+        margin: 16px auto;
+        background-color: #ADD8E6;
+        padding: 16px;
+        color: #000000;
+        border-radius: 5px;
+    }
+
+/* Display Styles for Form Elements */
+input, label, select, textarea{
+    display: block;
+    width: 100%;
+}
+
+/* Label Styles */
+label{
+    margin: 0 0 4px 16px;
+    font-weight: bold;
+}
+
+/* Input/Select Sizing Styles */
+input, select, textarea{
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    border: 1px inset #196774;
+}
+
+/* Fieldset Styles */
+fieldset{
+    margin-bottom: 24px;
+    border-radius: 4px;
+    border-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px 0;
+}
+
+/* Legend Styles */
+legend{
+    font-weight: bold;
+}
+
+/* Submit Button Styles */
+input[type=submit]{
+    background-color: #FFFFFF;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: -3px 3px 5px #362432;
+}
