@@ -123,8 +123,3 @@ input[type=submit]{
     background-color: #000000;
     color: #FFFFFF;
 }
-/* Form Styles */
-form{
-    margin-left: 800px;
-    margin-right: 800px;
-}
